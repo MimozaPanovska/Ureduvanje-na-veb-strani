@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagjacko meni</title>
+    <style>
+        /* .menu{
+            background-color: blue;
+            width:250px;
+        } */
+            .dropbtn{
+            color: aquamarine;
+            background-color: blue;
+            width: 150px;
+            height: 50px;
+            padding: 5px 5px;
+            border: black;
+            cursor:zoom-in;
+        }
+            .dropbtn:hover{
+            background-color: blueviolet;
+            color: pink;
+        }
+            .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+            .dropdown-content{
+            position: absolute;
+            display: none;
+            background-color: yellow;
+            min-width: 150px;
+            box-shadow: 5px 5px 5px 5px yellowgreen;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content
+        {
+            display: block;
+        }
+            .dropdown-content a{
+            color:lightseagreen;
+            width: 100%;
+            height: 50px;
+            background-color: indigo;
+            border: 1px solid white;
+            padding: 3px 3px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            height: 50px;
+        }
+            .dropdown-content a:hover{
+            background-color: coral;
+        }
+        
+        .dropdown:hover .dropbtn{
+            background-color: darkorange;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <p> Postavete go gluvceto vrz kopceto za da se otvori pagjackoto meni</p>
+   <div class="menu">  
+    <!-- <button class="dropbtn"> HOME</button>
+    <button class="dropbtn"> ABOUT</button> -->
+    <div class="dropdown">
+        
+        
+        <button class="dropbtn"> SKILLS</button>
+        <div class="dropdown-content">
+            <a href="https://csoo.edu.mk/pocetna/struki/"> CSOOk</a> 
+            <a href="https://www.onlinegdb.com/online_c++_compiler"> C++ ONline Compiler</a> 
+            <a href="https://talent.mk/"> Natprevar DABAR</p> 
+        </div>
+    </div>
+    
+    
+    </div>
+        
+            
+</body>
+</html>
