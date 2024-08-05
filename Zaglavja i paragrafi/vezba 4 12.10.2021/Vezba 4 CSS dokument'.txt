@@ -1,0 +1,16 @@
+h2,h3 {
+    color: black;
+    background-color: yellow;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+}
+/* h3 {
+    color: black;
+    background-color: green;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+} */

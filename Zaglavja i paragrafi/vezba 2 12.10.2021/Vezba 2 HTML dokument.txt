@@ -1,0 +1,15 @@
+<html>
+<html>
+<head>
+    <title>vtora vezba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="css">
+        ИМЕ И ПРЕЗИМЕ НА УЧЕНИКОТ
+    </h2>
+    <b>MOETO IME E </b>
+    <i>Magdalena</i>
+    <del>Ristovska</del>
+</body>
+</html>
