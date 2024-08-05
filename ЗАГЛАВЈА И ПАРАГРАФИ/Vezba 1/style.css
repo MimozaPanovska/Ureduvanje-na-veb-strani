@@ -1,0 +1,19 @@
+.redtext {
+    color: red;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+h4,h5,h6,p {
+    color:green;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
+}
+#myid {
+    color: rgb(68, 69, 151);
+    letter-spacing: 2px;
+    margin-bottom: 10px; 
+}
+body{
+    background-color: hotpink;
+}
+
