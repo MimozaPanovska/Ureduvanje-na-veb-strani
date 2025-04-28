@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: yellow;
+            animation-name: krug;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-direction: reverse;
+            animation-iteration-count: 5;
+            animation-timing-function: ease-out;
+        }
+        @keyframes krug{
+            20%{
+                background: linear-gradient(yellow,orange);
+                transform:translateX(200px) rotateY(60deg) scale(-30%);
+            }
+            50%{
+                background: linear-gradient(orange,red);
+                transform:translateX(200px) translateY(300px) rotateZ(100deg) scale(30%);
+            }
+            80%{
+                background: linear-gradient(red, violet);
+                transform:translateX(0px) translateY(300px) rotateX(150deg) scale(20%);
+            }
+            90%{
+                background: linear-gradient(violet,blue);
+                transform:translateX(0px) translateY(0px) rotateY(70deg) scale(-20%);
+            }
+            100%{
+                background: linear-gradient(blue,green));
+                transform:translateX(0px) translateY(0px) rotateZ(200deg) scale(50%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+</body>
+</html>
