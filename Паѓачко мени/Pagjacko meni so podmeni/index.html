@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagjacko meni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .ureduvanje{
+            background-color: aqua;
+            
+            width:940px;
+        }
+        
+        .dropbtn{
+            color:lightseagreen;
+            width: 130px;
+            height: 50px;
+            background-color: indigo;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            border: 2px solid white;
+        }
+        /* //ureduvanje na kopceto */
+        .dropbtn:hover{
+            background-color: blueviolet;
+            color: pink;
+        }
+        /* //klasa za koga ke se postavi gluvceto na kopceto */
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        /* //klasa za pagjackiot element */
+        .dropdown-content{
+            position: absolute;
+            display: none;
+            background-color: yellow;
+            width:128px;
+            box-shadow: 5px 5px 5px 5px yellowgreen;
+            z-index: 1;
+        }
+        .dropdown2{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content2{
+            position: absolute;
+            display: none;           
+            margin-top: -61px;
+            margin-left: 133px;
+            width: 128px;
+            box-shadow: 5px 5px 5px 5px yellowgreen;
+            z-index: 1;
+        }
+        .dropdown2:hover .dropdown-content2
+        {
+            display: block;
+        }
+        /* //klasa za sodrzinata na pagjackiot element */
+        .dropdown:hover .dropdown-content
+        {
+            display: block;
+        }
+        .dropdown3{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content3{
+            position: absolute;
+            display: none;          
+            margin-top: -61px;
+            margin-left: 133px;
+            width: 128px;
+            box-shadow: 5px 5px 5px 5px yellowgreen;
+            z-index: 1;
+        }
+        .dropdown3:hover .dropdown-content3
+        {
+            display: block;
+        }
+        a{
+            color:lightseagreen;
+            width: 128px;
+            height: 50px;
+            background-color: indigo;
+            padding-top: 20px;
+          display: block;
+            text-decoration: none;
+            text-align: center;
+            border: 2px solid white;
+        }
+        /* //klasa za prikazuvanje na sodrzinata koga ke se postavi gluvceto na elementot */
+        .dropdown-content a{
+            color:lightseagreen;
+            width: 128px;
+            height: 50px;
+            background-color: indigo;
+            padding: 3px 3px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        .dropdown-content2 a:hover{
+            background-color: coral;
+        }
+        /* //klasa za ureduvanje na linkovite vo pagjackoto meni */
+        .dropdown-content a:hover{
+            background-color: coral;
+        }
+        /* // klasa za menuvanje na linkot koga ke se postavi gluvceto na nego */
+        .dropdown:hover .dropbtn{
+            background-color: darkorange;
+        }
+        /* //klasa za menuvanje na izgledot na kopceto koga ke se pojavi sodrzinata na pagjackoto meni */
+        
+    </style>
+</head>
+<body>
+    <p> Postavete go gluvceto vrz kopceto za da se otvori pagjackoto meni</p>
+     <div class="ureduvanje">
+        <button class="dropbtn"> LOREM</button>            
+            <button class="dropbtn"> REPPELENDUS</button>
+            <button class="dropbtn"> VOLUPTATE</button>
+    <div class="dropdown">
+        <button class="dropbtn"> LABORUM</button>
+        <div class="dropdown-content">
+        <a href="https://www.facebook.com/"> Lorem</a>
+            <a href="https://www.facebook.com/"> Nisi</a> 
+            <div class="dropdown2">
+            <a href="https://www.facebook.com/">Laborum</a>                
+                <div class="dropdown-content2">                       
+                  <a href="https://www.facebook.com/">Lorem</a>  
+                  <a href="https://www.facebook.com/">Nisi</a>
+                  <a href="https://www.facebook.com/">Tenetur</a>
+                  <div class="dropdown3">
+                  <a href="https://www.facebook.com/">Laborum</a>
+                  <div class="dropdown-content3">
+                    <a href="https://www.facebook.com/">Lorem</a>
+                    <a href="https://www.facebook.com/">Nisi</a>
+                    </div>
+                    </div>
+                  <a href="https://www.facebook.com/"> Quidem</a>
+                  </div>
+                 </div>                          
+            <a href="https://www.facebook.com/">Ullam</a>
+            <a href="https://www.facebook.com/">Quidem</a>
+        </div>    
+    </div>        
+            <button class="dropbtn">Tempore</button>            
+            <button class="dropbtn">Omnis</button>
+            <button class="dropbtn">Sint</button>             
+  </div>  
+
+</body>
+</html>
