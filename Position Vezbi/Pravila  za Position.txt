@@ -1,0 +1,1 @@
+Sekoj element koj ima svojstvo position razlicno od static se pozicionira spored podesuvanjata vo odnos na elementot-roditel koj prv pred nego ima svojstvo position so vrednost razlicno od static. Treba da se vodi smetka za vgnezdeni elementi eden vo drug.
