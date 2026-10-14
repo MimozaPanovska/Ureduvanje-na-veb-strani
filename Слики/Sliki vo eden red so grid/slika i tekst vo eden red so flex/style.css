@@ -1,0 +1,24 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+}
+
+.content p {
+    font-size: 18px;
+}
