@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> CENTRIRANJE NA SLIKA</h2>
+    <P>ZA CENTRIRANJE NA SLIKA, POSTAVI GI LEVATA I DESNATA MARGINA NA AUTO, A SLIKATA NAPRAVI JA DA BIDE BLOCK ELEMENT</P>
+    <img  class="slika" src="images.jpg" alt="priroda">
+    <div class="row">
+        <div class="column">
+    <img  src="slika2.jpg" alt="planina" style="width: 100%;"> </div>
+    <div class="column">
+    <img  src="slika3.jpg" alt="ezero" style="width: 100%;"> </div>
+    <div class="column">
+    <img   src="slika4.jpg" alt="priroda vo zima" style="width: 100%;"></div>
+    </div>
+</body>
+</html>
