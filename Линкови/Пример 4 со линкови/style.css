@@ -1,0 +1,82 @@
+p{
+    width: 300px;
+}
+a.one:link 
+{
+color: blue;
+background-color: turquoise;
+opacity: 0.4;
+padding: 5px;
+}
+a.one:visited 
+{
+color: rgb(26, 180, 21);
+}
+a.one:hover 
+{
+color: rgb(238, 238, 13);
+}
+a.two:link 
+{
+color: rgb(223, 24, 107);
+background-color: turquoise;
+opacity: 1;
+padding: 5px;
+}
+a.two:visited 
+{
+color: rgb(26, 180, 21);
+}
+a.two:hover 
+{
+color: rgb(238, 238, 13);
+font-size:x-large;
+}
+a.three:link 
+{
+color: rgb(238, 101, 22);
+background-color: rgb(25, 206, 34);
+opacity: 1;
+padding: 5px;
+}
+a.three:visited 
+{
+color: rgb(26, 180, 21);
+}
+a.three:hover 
+{
+color: rgb(238, 238, 13);
+background-color: rgb(223, 24, 107);
+}
+a.four:link 
+{
+color: rgb(143, 205, 229);
+background-color: rgb(20, 216, 13);
+opacity: 1;
+padding: 5px;
+}
+a.four:visited 
+{
+color: rgb(26, 180, 21);
+}
+a.four:hover 
+{
+color: rgb(238, 238, 13);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a.five:link 
+{
+color: rgba(73, 77, 51, 0.863);
+background-color: rgb(233, 235, 111);
+opacity: 1;
+padding: 5px;
+}
+a.five:visited 
+{
+color: rgb(26, 180, 21);
+}
+a.five:hover 
+{
+color: rgb(71, 17, 197);
+text-decoration: black underline;
+}
